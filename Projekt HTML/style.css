@@ -1,0 +1,35 @@
+body {
+    background-color: #938173;
+}
+.navbar {
+    width: 98%;
+    height: 100px;
+    border: solid;
+    border-width: 10px;
+    border-color: #2e251b;
+    background-color: #242424;
+    padding: 10px;
+}
+.navbar_table {
+    display: inline-block;
+    height: 90px;
+    width: 70%;
+}
+.navbar_field {
+    text-align: center;
+    padding: 10px;
+}
+.navbar_link {
+    text-decoration: none;
+    font-size: 40px;
+    color: aliceblue;
+}
+#navbar_pic {
+    display: inline-block;
+    float: right;
+    height: 90px;
+    border: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    padding: 1px;
+}
