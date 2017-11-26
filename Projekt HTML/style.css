@@ -3,7 +3,7 @@ body {
 }
 .navbar {
     width: 98%;
-    height: 100px;
+    height: 80px;
     border: solid;
     border-width: 10px;
     border-color: #2e251b;
@@ -27,9 +27,19 @@ body {
 #navbar_pic {
     display: inline-block;
     float: right;
-    height: 90px;
+    height: 75px;
     border: solid;
     border-width: 2px;
     border-color: #ffffff;
     padding: 1px;
+}
+.block_halfPage {
+    display: inline-block;
+    width: 45%;
+    padding: 10px;
+}
+.block_center {
+    width: 95%;
+    padding: 10px;
+    text-align: center;
 }
