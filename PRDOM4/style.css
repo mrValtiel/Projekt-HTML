@@ -1,0 +1,46 @@
+body {
+    background-image: linear-gradient(to bottom, grey, blue, green, red, yellow), url("background.jpg");
+    background-blend-mode: multiply;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+.spacer {
+    height: 100px;
+}
+table {
+    border: 5px solid black;
+}
+td {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    color: aliceblue;
+    text-align: center;
+}
+#img1 {
+    width: 40%;
+    height: 400px;
+    border: 5px double red;
+    box-shadow: 5px 5px 5px red;
+}
+#img2 {
+    width: 1000px;
+    border: 15px groove green;
+    filter: blur(3px);
+    box-shadow: 10px 10px 10px grey;
+}
+#img3 {
+    width: 30%;
+    margin-left: 30%;
+    border: 5px solid #ff5270;
+    border-radius: 20px;
+}
+#img4 {
+    width: 800px;
+    box-shadow: 10px 10px 10px green;
+}
+#img5 {
+    width: 45%;
+    margin-left: 200px;
+    box-shadow: 10px 10px 20px 20px blue;
+}
