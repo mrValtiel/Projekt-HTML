@@ -1,5 +1,8 @@
 body {
-    background-color: #938173;
+    background-image: linear-gradient(to bottom, grey, #2c2c2c), url("files/geralt_bg.jpg");
+    background-blend-mode: multiply;
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 .navbar {
     width: 98%;
@@ -42,4 +45,7 @@ body {
     width: 95%;
     padding: 10px;
     text-align: center;
+}
+.hpimg {
+    width: 99%;
 }
