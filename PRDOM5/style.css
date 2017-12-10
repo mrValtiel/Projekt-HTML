@@ -1,0 +1,47 @@
+body {
+    background-color: #00cebe;
+}
+*{
+    color: #1400ff;
+}
+ul li {
+    border: 3px solid green;
+}
+p {
+    font-size: 20px;
+}
+#pepepe::first-line {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pepepe::first-letter {
+    font-size: 40px;
+    background-color: #f5e521;
+    border: 5px dotted red;
+    margin-right: 3px;
+}
+.hehehe::before {
+    content: "";
+    display: block;
+    border: 1px solid black;
+}
+.hehehe::after {
+    content: "";
+    display: block;
+    border: 1px solid black;
+}
+table {
+    border: 5px solid black;
+}
+td {
+    border: 2px solid red;
+    text-align: center;
+}
+tr:nth-child(3n) {
+    background-color: orange;
+}
+a:link {
+    color: green;
+}
+a:visited {
+    color: saddlebrown;
+}
