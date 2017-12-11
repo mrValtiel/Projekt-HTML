@@ -22,10 +22,18 @@ body {
     text-align: center;
     padding: 10px;
 }
+.navbar_space {
+    font-size: 40px;
+    color: aliceblue;
+}
 .navbar_link {
     text-decoration: none;
     font-size: 40px;
     color: aliceblue;
+    font-family: Helvetica, sans-serif;
+}
+a.navbar_link:hover {
+    color: #0088ff;
 }
 #navbar_pic {
     display: inline-block;
@@ -55,4 +63,7 @@ body {
 }
 .hpimg {
     width: 99%;
+}
+.beastimg {
+    width: 60%;
 }
