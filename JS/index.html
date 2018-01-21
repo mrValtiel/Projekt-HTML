@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <title>JavaScript</title>
+</head>
+<body>
+    <div id="element"></div>
+    <button class="btn">Wyświetl coś</button>
+    <div id="element2"></div>
+    
+    <script>
+        console.log("Hello world!");
+        
+        document.getElementById("element").innerHTML = "wartość ustawiana skryptowo";
+        
+        const myName = "Marek";
+        const mySurname = "Garniec";
+        console.log("Witaj, " + myName + " " + mySurname + "!");
+        
+        var colors = [];
+        colors = ['green', 'red', 'blue', 'yellow', 'black'];
+        var firstColor = colors[0];
+        console.log(firstColor);
+        console.log(colors);
+        
+        for (var i = 0; i < 5; i++) { 
+            console.log(i);
+        } 
+
+        var iterators = [1, 2, 3, 4, 5]; 
+        for (i in iterators) { 
+            console.log(i);
+        }
+        
+        var tab = [1, 2, 3, 4, 5]; 
+        for (var i = 0; i < tab.length; i++) { 
+            console.log(tab[i]); 
+        }
+        
+        var n = 5;
+        var tab1 = [];
+        for (var i = 0; i < n; i++) { 
+            tab1[i] = []; /* każdy element tablicy jednowymiarowej staje się nową tablicą, dzięki czemu mamy tablicę dwuwymiarową */
+        } 
+        
+        var i = 0; 
+        while (i < 5) { 
+            console.log(i); 
+            i++; 
+        } 
+        
+        function hello() {
+            console.log("Hello world by function!");
+        }
+        hello();
+        
+        function getArea(width, height) { 
+            return (width * height); 
+        } 
+        var wallWidth = 3; 
+        var wallHeight = 5; 
+        var area = getArea(wallWidth, wallHeight); 
+        console.log("Area: " + area);
+        
+        document.getElementById("btn").addEventListener("click").function() {
+            document.getElementById("element2").innerHTML = "Brawo, kliknąłeś przycisk!";
+        }
+        
+    </script>
+</body>
+</html>
